@@ -23,7 +23,7 @@
 	<body class="  d-none" data-module="dom-ready">
 
 					<header class="sn_header pe-10">
-	<div class="ds_section__changer">
+	<div class="ds_section__changer" data-section-target ="2">
 		
   <i class="sn_sprite _note ">
     <svg viewBox="0 0 80 80"><use xlink:href="./assets/images/icons.svg#note" /></svg>
@@ -53,9 +53,10 @@
 		</i>
 	</div>
 </header>
+<div class="sn_header__spacer"></div>
 		
 		
-	<section class="dn_chapter ds_section my-20">
+	<section class="ds_section dn_chapter my-20 d-none" data-section-index="1">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -64,14 +65,14 @@
 
 				<div class="dn_chapter_list mt-35 mt-lg-55">
 											<div class="dn_chapter_i mb-40">
-							<div class="dn_chapter_i_toggle " data-bs-toggle="collapse" data-bs-target="#dn_chapter_i_list_1">
+							<div class="dn_chapter_i_toggle collapsed" data-bs-toggle="collapse" data-bs-target="#dn_chapter_i_list_1">
 								<div class="text">
 									Venerdì 21 aprile
 									<span></span>
 									<span></span>
 								</div>
 							</div>
-							<div class="dn_chapter_i_collapse collapse show" id="dn_chapter_i_list_1">
+							<div class="dn_chapter_i_collapse collapse" id="dn_chapter_i_list_1">
 								<div class="dn_chapter_i_collapse_in py-20 px-lg-20">
 
 																			<div class="dn_chapter_i__content py-30">
@@ -103,7 +104,7 @@ con destinazione <a href="https://goo.gl/maps/gPX4GJN46rHfwyNe7" target="blank">
 									<span></span>
 								</div>
 							</div>
-							<div class="dn_chapter_i_collapse collapse " id="dn_chapter_i_list_2">
+							<div class="dn_chapter_i_collapse collapse" id="dn_chapter_i_list_2">
 								<div class="dn_chapter_i_collapse_in py-20 px-lg-20">
 
 																			<div class="dn_chapter_i__content py-30">
@@ -168,7 +169,7 @@ Cittadella
 									<span></span>
 								</div>
 							</div>
-							<div class="dn_chapter_i_collapse collapse " id="dn_chapter_i_list_3">
+							<div class="dn_chapter_i_collapse collapse" id="dn_chapter_i_list_3">
 								<div class="dn_chapter_i_collapse_in py-20 px-lg-20">
 
 																			<div class="dn_chapter_i__content py-30">
@@ -242,7 +243,7 @@ Ponte delle catene
 									<span></span>
 								</div>
 							</div>
-							<div class="dn_chapter_i_collapse collapse " id="dn_chapter_i_list_4">
+							<div class="dn_chapter_i_collapse collapse" id="dn_chapter_i_list_4">
 								<div class="dn_chapter_i_collapse_in py-20 px-lg-20">
 
 																			<div class="dn_chapter_i__content py-30">
@@ -298,7 +299,7 @@ Ponte delle catene
 									<span></span>
 								</div>
 							</div>
-							<div class="dn_chapter_i_collapse collapse " id="dn_chapter_i_list_5">
+							<div class="dn_chapter_i_collapse collapse" id="dn_chapter_i_list_5">
 								<div class="dn_chapter_i_collapse_in py-20 px-lg-20">
 
 																			<div class="dn_chapter_i__content py-30">
@@ -335,9 +336,9 @@ Ponte delle catene
 	</div>
 </section>
 
-	<section class="dn_converter d-none ds_section d-none mt-20 mb-200" data-module="currency-converter" data-ratio="376.06">
+	<section class="ds_section ds_converter mt-20 mb-200 d-none" data-section-index="2" data-module="currency-converter" data-ratio="376.06">
 	<form class="ds_converter__form" action="">
-		<div class="dn_converter__in">
+		<div class="ds_converter__in">
 			<div class="w-50 p-10 p-sm-20 pe-5 pe-sm-10">
 				<input type="number" class="ds_converter__first py-40 px-5 px-sm-20" placeholder="€">
 			</div>
